@@ -22,7 +22,9 @@
 
 SCRIPT_PATH=`cat scripts`
 
-source ~/.profile
+# source ~/.profile
+module load minimap2/2.11
+module load samtools/1.8
 
 if [ -e `pwd`/CONFIG ]; then
    CONFIG=`pwd`/CONFIG
